@@ -12,10 +12,10 @@ pipeline {
     GIT_CREDENTIAL_ID = 'git-id'
     KUBECONFIG_CREDENTIAL_ID = 'demo-kubeconfig'
     DOCKER_REPO_NAMESPACE = 'kubesphere'
-    GIT_ACCOUNT = 'kubesphere'
+    GIT_ACCOUNT = 'FeynmanZhou'
     APP_NAME = 'devops-go-sample'
     DOCKER_REPO_ADDRESS = 'harbor.devops.kubesphere.local:30280'
-    GIT_ADDRESS = 'gitlab.devops.kubesphere.local:30080'
+    GIT_ADDRESS = 'github.com/FeynmanZhou/devops-go-sample'
   }
   stages {
     stage('checkout scm') {
